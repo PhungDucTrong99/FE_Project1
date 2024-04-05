@@ -15,5 +15,6 @@
     .header_right input,
     .header_right button {
         width: 100%;
+        margin-left: 0;
     }
 }

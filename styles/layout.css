@@ -1,0 +1,154 @@
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 30%;
+    height: 300px;
+    /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px;
+    /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*container*/
+
+.container_page {
+    display: flex;
+}
+
+.content_page {
+    width: 70%;
+}
+
+/* header style*/
+.header {
+    background-color: #fff;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 5px 2px #dddcdc;
+    margin-bottom: 15px;
+
+}
+
+.header_left {
+    display: flex;
+}
+
+.header_button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header-button:hover {
+    background-color: #0056b3;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+}
+
+.search_input {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search_button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.search_button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the banner */
+.banner_page {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+/*container*/
+.container_page {
+    display: flex;
+}
+
+.content_page {
+    width: 70%;
+}
+
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/*container*/
+
+.container_page {
+    display: flex;
+    padding: 10px 60px;
+}
+
+.content_page {
+    width: 70%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+.content_page_box {
+    background-color: #f0eeee;
+    padding: 10px;
+    border-radius: 5px;
+    width: 90%;
+    margin: auto;
+}
+
+.creator {
+    padding-top: 15px;
+    margin: auto;
+    width: 90%;
+}
