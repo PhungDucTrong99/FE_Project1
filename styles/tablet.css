@@ -1,0 +1,35 @@
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (min-width: 768px) {
+
+    nav,
+    article {
+        width: 100%;
+        height: auto;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header_left,
+    .header_right {
+        display: flex;
+        align-items: center;
+    }
+
+    .header_right {
+        margin-left: 10px;
+    }
+
+    .header_left a,
+    .header_right input {
+        margin-right: 10px;
+    }
+
+    .header_left a:last-child,
+    .header_right input {
+        margin-right: 0;
+    }
+}

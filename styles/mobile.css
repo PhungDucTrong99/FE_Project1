@@ -1,0 +1,19 @@
+/* CSS cho màn hình điện thoại */
+@media only screen and (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header_left,
+    .header_right {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .header_left a,
+    .header_right input,
+    .header_right button {
+        width: 100%;
+    }
+}
